@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav
+{
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+.search
+{
+    border: 2px solid rgb(237, 237, 237);
+    font-size: 17px;
+    font-weight: 500;
+}
+.sea,
+.search-bar
+{
+    border: none;
+}
+.sea
+{
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+}
+.search-bar:focus
+{
+    outline: none;
+}
+.cate
+{   
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.cate::-webkit-scrollbar {
+    width: 100px;
+    height: 10px;
+} 
+.main-cate
+{
+    padding-top: 4.5rem;
+}
+.download
+{   
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    text-align: center;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.img-1:hover .download,
+.img-1:hover .download i 
+{   
+    background-color: rgb(255, 255, 255);
+    color: black !important;
+}
+.wall
+{
+    border: 1px solid black;
+}
+.wall a
+{
+    color: black;
+    text-decoration: none;
+}
+.wall:hover
+{
+    background-color: rgb(61, 182, 126);
+    color: white;
+    border: none;
+}
+.wall:hover a
+{
+    color: white;
+    border: none;
+}
+
