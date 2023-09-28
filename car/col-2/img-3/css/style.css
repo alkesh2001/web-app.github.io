@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.close
+{
+    background-color: rgba(0,0,0,.8);
+}
+.save,
+.like
+{
+    border: 2px solid gray;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 10px;
+    padding-left: 13px;
+    border-radius: 5px;
+    background-color: white;
+}
+.like
+{
+    padding-left: 12px;
+}
+.free
+{
+    background-color: rgb(61, 182, 126);
+    color: white;
+    font-size: 17px;
+    padding: 9px 0px;
+}
+.down
+{
+    border: 2px solid gray;
+    padding:10px 0px ;
+    border-radius: 10px;
+    color: gray;
+}
+.thank
+{
+    margin-top: 2.1rem;
+}
