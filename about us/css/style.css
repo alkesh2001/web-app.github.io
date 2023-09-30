@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.dev
+{
+    font-size: 45px;
+    border-bottom: 2px solid rgb(61, 61, 61);
+}
+.about{
+    width: 130px;
+}
+.first
+{
+    border: 1px solid rgb(87, 87, 87);
+
+}
+.well
+{
+    border-bottom: 1px solid rgb(87, 87, 87);
+}
+.home
+{
+    width: 180px;
+}
