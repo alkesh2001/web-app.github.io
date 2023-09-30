@@ -78,4 +78,9 @@
     color: white;
     border: none;
 }
+.wall:active
+{
+    scale: 1.3;
+    transition: all 1s ease;
+}
 
