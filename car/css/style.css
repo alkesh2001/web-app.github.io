@@ -83,8 +83,5 @@
     color: white;
     border: none;
 }
-.home:active,.wall:active
-{
-    scale: 1.3;
-}
+
 

@@ -78,8 +78,32 @@
     color: white;
     border: none;
 }
-.wall:active
+.main-side
 {
-    scale: 1.5;
+    height: 900px;
+    display: none;
+    animation: slideIn 0.3s ease-in-out forwards; /* Play the animation and keep the final state */  
 }
-
+.side li
+{  
+    font-size: 30px;
+    list-style: none;
+}
+.back
+{
+    padding-top: 21px;
+}
+.side li a
+{  
+    color: black;
+    text-decoration: none;
+}
+/* // Animation for side bar */
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
