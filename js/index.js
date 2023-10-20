@@ -18,9 +18,15 @@ c.addEventListener('click', () =>{
 })
 
 const ani = document.querySelector('.animation')
-const ani_sec = document.querySelector('.ani-sec')
 
 setTimeout( ()=>{
     ani.style.display = 'none'
-    ani_sec.style.display = 'block'
-},5000)
+},3000)
+
+// const ani = document.querySelector('.animation');
+
+// function hideAnimation() {
+//   ani.style.display = 'none';
+// }
+
+// setTimeout(hideAnimation, 3000);

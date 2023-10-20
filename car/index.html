@@ -39,7 +39,7 @@
                     <a href="" class="text-decoration-none">Car</a>
                 </p>
                 <p class="mx-2 py-1 px-4 rounded-3 home">
-                    <a href="../index.html" class="text-decoration-none">Home</a>
+                    <a href="" type="submit" class="text-decoration-none back">Home</a>
                 </p>
             </div>
         </div>
@@ -164,6 +164,19 @@
             </div>
         </div>
     </section>
+
+
+
+    <script>
+        
+        let  back = document.querySelector('.back')
+            back.addEventListener('click', (a)=>{
+                window.history.go(-1);
+                // return false;
+                a.preventDefault()
+            })
+   
+    </script>
 </body>
 
 </html>
